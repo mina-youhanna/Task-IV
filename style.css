@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./Assist/pexels-pixabay-5145.jpg');
+    background-size: cover;
+    background-position: center  3px;
+}
+
+#header .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.4);
+
+}
+#header nav{
+    background-color: rgba(0, 0, 0,0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+#header nav h2{
+    color: white;
+    padding: 5px;
+}
+
+#header nav ul{
+list-style-type: none;
+display: flex;
+justify-content: flex-end;
+}
+#header nav ul li{
+    padding: 10px;
+}
+#header nav ul li a{
+    color: white;
+    text-decoration:none;
+}
+
+#header .caption{
+    color: white;
+   
+    text-align: center;
+    padding-top: 200px;
+}
+
+#header .caption h1{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#header .caption  p{
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header .caption  button{
+   width: 200px;
+   border-radius: 20px;
+   background-color:rgb(255, 255, 196);
+   padding: 10px;
+}
